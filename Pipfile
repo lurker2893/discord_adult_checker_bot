@@ -1,0 +1,19 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+"discord.py" = "*"
+python-dotenv = "*"
+asyncio = "*"
+python-baseconv = "*"
+pillow = "*"
+google-api-python-client = "*"
+google-auth-oauthlib = "*"
+google-auth = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"
